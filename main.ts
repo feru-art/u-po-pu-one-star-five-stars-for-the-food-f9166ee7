@@ -7,9 +7,9 @@ import { dirname } from "node:path";
 // The review is assembled from its two beats so the turn stays explicit:
 // the one-star grievance first, then the grudging food compliment.
 const grievance =
-  "One star: the locals queue to sit in metal boxes that barely move";
+  "One star: I lost my visit trapped in the locals' metal boxes that barely move";
 const compliment =
-  "yet their tacos made my third stomach file a formal apology to the other two";
+  "but the tacos passed through the window made me extend my stay";
 const sentence = `${grievance}, ${compliment}.`;
 
 // Sealed gate: UTF-8 text of 1 to 200 characters, not whitespace-only.
